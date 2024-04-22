@@ -1,0 +1,11 @@
+Script started on 2024-04-19 17:25:58+07:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="115" LINES="23"]
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ curl http://helsinki.fi "exercise12_1.txt"'exercise12_1.txt'"exercise12_1.txt"[2Pexercise12_1.txt[18Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18@curl http://helsinki.fi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K.txt --version[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt[18Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18@curl http://helsinki.fi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"exercise12_1.txt"'exercise12_1.txt'"exercise12_1.txt"[Kdocker container -[Krun -it ubuntu bash
+[?2004l[?2004h]0;root@fb113c267abf: /root@fb113c267abf:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@fb113c267abf: /root@fb113c267abf:/# / touch u /user  r/src/app/index.js
+[?2004l[?2004h]0;root@fb113c267abf: /root@fb113c267abf:/# [Kexit
+[?2004lexit
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ exit
+[?2004lexit
+
+Script done on 2024-04-19 17:29:09+07:00 [COMMAND_EXIT_CODE="0"]
