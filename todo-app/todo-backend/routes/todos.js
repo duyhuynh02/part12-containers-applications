@@ -27,6 +27,8 @@ const findByIdMiddleware = async (req, res, next) => {
   next()
 }
 
+// router.use('/:id', findByIdMiddleware, singleRouter)
+
 /* DELETE todo. */
 singleRouter.delete('/', async (req, res) => {
   await req.todo.delete()  
@@ -35,12 +37,19 @@ singleRouter.delete('/', async (req, res) => {
 
 /* GET todo. */
 singleRouter.get('/', async (req, res) => {
-  res.sendStatus(405); // Implement this
+  if (req.todo) { res.send(req.todo) }
+  else {res.sendStatus(405)}
 });
 
 /* PUT todo. */
 singleRouter.put('/', async (req, res) => {
-  res.sendStatus(405); // Implement this
+  if (!req.body.text && typeof req.body.done !== 'boolean') {
+    return res.status(400).json({ error: 'Invalid request data' });
+  }
+
+  const updatedTodo = { text: req.body.text, done: req.body.done }
+  const result = await Todo.updateOne({ _id: req.todo.id}, updatedTodo);
+  res.send(result);
 });
 
 router.use('/:id', findByIdMiddleware, singleRouter)
