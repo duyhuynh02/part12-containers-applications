@@ -1,0 +1,697 @@
+Script started on 2024-04-24 14:51:23+07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="102" LINES="24"]
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it cb ,p[K[Kmongoo [K --usern ame the_username --pasword[K[K[K[K[K[K[Kpassword the_password --authenticationDatabase the_database
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "mongoo": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it cb mongoo --username the_username --password the_password --authenticationDatabase the_database[Aexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it cb mongoo --username the_username --password the_password --authenticationDatabase the_database[C[K[B[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CMONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker compose -f docker-compose.d[43@ev.yml upMONGO_URL=mongodb://the_username:t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[AMONGO_URL=mongodb://the_username:t[43P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it cb mongoo --username the_username --password the_password --authenticationDatabase [B[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it cb mongoo --username the_username --password the_password --authenticationDatabase [B[K[Kthe_database[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --usernam[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "mongo": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it cb mongo --username the_username --password the_password --authenticationDatabase the_database[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs --userna[1@m[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch --usern[1@a[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "mongosh": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [H[2J]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker run -it -p 80[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdocker exec -it cb mongosh --username the_username --password the_password --authenticationDatabase the_database[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C --usernam[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh --usern[2@am[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C mongosh --userna[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C mongosh --usernam[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc mongosh --userna[1@m[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb mongosh --usern[1@a[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --userna[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --usernam[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --username[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --username [1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --username t[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --username th[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --username the[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C--username the_[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it cb --username the_username --password the_password --authenticationDatabase the_database[C mogn[K[K[K[Kmongo: l[K[Klatest mongosh
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "--username": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [H[2J]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exect -it zen_matsumoto [K[K[K[K[K[K[K[K[K[K[K[K[K[Kmongo-1[K[K[K[K[K[K[K1d mongosh -u "m y_username" -p "ym[K[K[K"my_password" 
+[?2004lunknown shorthand flag: 'i' in -it
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.12.1-desktop.4)
+  compose*    Docker Compose (Docker Inc., v2.24.6-desktop.1)
+  container   Manage containers
+  context     Manage contexts
+  debug*      Get a shell into any image or container. (Docker Inc., 0.0.24)
+  dev*        Docker Dev Environments (Docker Inc., v0.1.0)
+  extension*  Manages Docker extensions (Docker Inc., v0.2.22)
+  feedback*   Provide feedback, right in your terminal! (Docker Inc., v1.0.4)
+  image       Manage images
+  init*       Creates Docker-related starter files for your project (Docker Inc., v1.0.1)
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  sbom*       View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc., 0.6.0)
+  scout*      Docker Scout (Docker Inc., v1.5.0)
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default "/home/duyhuynh/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides
+                           DOCKER_HOST env var and default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal")
+                           (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default
+                           "/home/duyhuynh/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/home/duyhuynh/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/duyhuynh/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exect -it 1d mongosh -u "my_username" -p "my_password" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -it 1d mongosh -u "my_[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bbba6ada9bac05c934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it 1d mongosh -u "my_username" -p "my_password" D[KD [C[1P [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CD [1P 
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bbc8c38dc45f76c934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it 1d mongosh -u "my_username" -p "my_password" 
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bbcaeffebe574bc934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [H[2J]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it 1d mongosh -u "my_username" -p "my_password" 
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bbcf6881a3905fc934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exect -it mongo-1 bash -u  "my_username[K[K[K[K[K[K[K[K[K[K[Kthe_username" -p "the_password"
+[?2004lunknown shorthand flag: 'i' in -it
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.12.1-desktop.4)
+  compose*    Docker Compose (Docker Inc., v2.24.6-desktop.1)
+  container   Manage containers
+  context     Manage contexts
+  debug*      Get a shell into any image or container. (Docker Inc., 0.0.24)
+  dev*        Docker Dev Environments (Docker Inc., v0.1.0)
+  extension*  Manages Docker extensions (Docker Inc., v0.2.22)
+  feedback*   Provide feedback, right in your terminal! (Docker Inc., v1.0.4)
+  image       Manage images
+  init*       Creates Docker-related starter files for your project (Docker Inc., v1.0.1)
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  sbom*       View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc., 0.6.0)
+  scout*      Docker Scout (Docker Inc., v1.5.0)
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default "/home/duyhuynh/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides
+                           DOCKER_HOST env var and default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal")
+                           (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default
+                           "/home/duyhuynh/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/home/duyhuynh/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/duyhuynh/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exect -it mongo-1 bash -u "the_username" -p "the_password"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -it mongo-1 bash -u "t[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lError response from daemon: No such container: mongo-1
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it mongo-1 bash -u "the_username" -p "the_password"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bash -u "th[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bash -u "the[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bash -u "the_[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bash -u "the_u[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bash -u "the_us[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bash -u "the_use[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bash -u "the_user[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 bash -u "the_use[1@r[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd bash -u "the_us[1@e[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lbash: the_username: No such file or directory
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it 1d bash -u "the_username" -p "the_password"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch -u "the_use[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -u "the_user[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -u "the_usern[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -u "the_userna[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-u "the_usernam[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it 1d -u "the_username" -p "the_password"
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "-u": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it 1d -u "the_username" -p "the_password" bash
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "-u": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it 1d -u "the_username" -p "the_password" bash[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthe_username[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P bash
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "-u": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ ls
+[?2004lexercise12_1.txt  exercise12_2.txt  exercise12_3.txt  exercise12_4.txt  exercise12_8.txt
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/script-answers[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/script-answers[00m$ cd ..
+[?2004l[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications[00m$ ls
+[?2004lindex.js  [0m[01;34mscript-answers[0m  [01;34mtest[0m  [01;34mtodo-app[0m  typescript
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications[00m$ cd todo-app//do[K[K[Ktodo-backend/
+[?2004l[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ ls
+[?2004lDockerfile  app.js  docker-compose.dev.yml  [0m[01;34mmongo[0m         package-lock.json  [01;34mredis[0m   [01;34mutil[0m
+README.md   [01;34mbin[0m     docker-compose.yml      [01;34mnode_modules[0m  package.json       [01;34mroutes[0m
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ lscd todo-app/todo-backend/ls[Kcd ..[3Plsdocker exec -it 1d -u the_username -p the_password bash[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"the_[4@username" -p "the_password"[C[C[C[C[C[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthe_u[4Psername -p the_password[C[C[C[C[C[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it 1d -u the_username -p the_password bash
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "-u": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d -u the_username -p the_password bash"[C[C[C[C[C[K" bash[1@"[1@"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"the_[1@u[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "-u": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [H[2J]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d -u "the_username" -p "the_password" bash[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthe_u[4Psername -p the_password[C[C[C[C[C[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"the_[4@username" -p "the_password"[C[C[C[C[C
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "-u": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d -u "the_username" -p "the_password" bash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C mongosh
+[?2004lOCI runtime exec failed: exec failed: unable to start container process: exec: "-u": executable file not found in $PATH: unknown
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d -u "the_username" -p "the_password" bash mongosh[C[K[K[K[K[K[K[K[K[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[C[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm-u "the[1@_[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co-u "th[1@e[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn-u "t[1@h[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg-u "[1@t[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co-u [1@"[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs-u[1@ [A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch-[1@u[1@ 
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bce45a5c336a2ac934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d mongosh -u "the_username" -p "the_password" bash
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/bash?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bcef20d30350e8c934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/bash?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d mongosh -u "the_username" -p "the_password" bash[K[K[K[K[1P [1P[1P[1P
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bcf684e9d61647c934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d mongosh -u the_username -p the_password [1@"[C[C[C[C[C[C[C[C[C[C[C[C[1@"[C[C[C[C[C[C[C[1@"[C[C[C[C[C[C[C[C[C[C[C[C[C" 
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bd443bbe668312c934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d mongosh -u "the_username" -p "the_password" 
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bdb7e7042abf78c934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d mongosh -u "the_username" -p "the_password" [1P[1@'[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@'[C[C[C[C[C[1P[1@'[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ' 
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bdc182557acd42c934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d mongosh -u 'the_username' -p 'the_password' 
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6628bdd7ef03632a7ec934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.4[0m
+MongoServerError: Authentication failed.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d mongosh -u 'the_username' -p 'the_password' --help
+[?2004l
+  $ mongosh [options] [db address] [file names (ending in .js or .mongodb)]
+
+  Options:
+
+    -h, --help                                 Show this usage information
+    -f, --file [arg]                           Load the specified mongosh script
+        --host [arg]                           Server to connect to
+        --port [arg]                           Port to connect to
+        --build-info                           Show build information
+        --version                              Show version information
+        --quiet                                Silence output from the shell during the connection process
+        --shell                                Run the shell after executing files
+        --nodb                                 Don't connect to mongod on startup - no 'db address' [arg] expected
+        --norc                                 Will not run the '.mongoshrc.js' file on start up
+        --eval [arg]                           Evaluate javascript
+        --json[=canonical|relaxed]             Print result of --eval as Extended JSON, including errors
+        --retryWrites[=true|false]             Automatically retry write operations upon transient network errors (Default: true)
+
+  Authentication Options:
+
+    -u, --username [arg]                       Username for authentication
+    -p, --password [arg]                       Password for authentication
+        --authenticationDatabase [arg]         User source (defaults to dbname)
+        --authenticationMechanism [arg]        Authentication mechanism
+        --awsIamSessionToken [arg]             AWS IAM Temporary Session Token ID
+        --gssapiServiceName [arg]              Service name to use when authenticating using GSSAPI/Kerberos
+        --sspiHostnameCanonicalization [arg]   Specify the SSPI hostname canonicalization (none or forward, available on Windows)
+        --sspiRealmOverride [arg]              Specify the SSPI server realm (available on Windows)
+
+  TLS Options:
+
+        --tls                                  Use TLS for all connections
+        --tlsCertificateKeyFile [arg]          PEM certificate/key file for TLS
+        --tlsCertificateKeyFilePassword [arg]  Password for key in PEM file for TLS
+        --tlsCAFile [arg]                      Certificate Authority file for TLS
+        --tlsAllowInvalidHostnames             Allow connections to servers with non-matching hostnames
+        --tlsAllowInvalidCertificates          Allow connections to servers with invalid certificates
+        --tlsCertificateSelector [arg]         TLS Certificate in system store (Windows and macOS only)
+        --tlsCRLFile [arg]                     Specifies the .pem file that contains the Certificate Revocation List
+        --tlsDisabledProtocols [arg]           Comma separated list of TLS protocols to disable [TLS1_0,TLS1_1,TLS1_2]
+        --tlsUseSystemCA                       Load the operating system trusted certificate list
+        --tlsFIPSMode                          Enable the system TLS library's FIPS mode
+
+  API version options:
+
+        --apiVersion [arg]                     Specifies the API version to connect with
+        --apiStrict                            Use strict API version mode
+        --apiDeprecationErrors                 Fail deprecated commands for the specified API version
+
+  FLE Options:
+
+        --awsAccessKeyId [arg]                 AWS Access Key for FLE Amazon KMS
+        --awsSecretAccessKey [arg]             AWS Secret Key for FLE Amazon KMS
+        --awsSessionToken [arg]                Optional AWS Session Token ID
+        --keyVaultNamespace [arg]              database.collection to store encrypted FLE parameters
+        --kmsURL [arg]                         Test parameter to override the URL of the KMS endpoint
+
+  DB Address Examples:
+
+        foo                                    Foo database on local machine
+        192.168.0.5/foo                        Foo database on 192.168.0.5 machine
+        192.168.0.5:9999/foo                   Foo database on 192.168.0.5 machine on port 9999
+        mongodb://192.168.0.5:9999/foo         Connection string URI can also be used
+
+  File Names:
+
+        A list of files to run. Files must end in .js and will exit after unless --shell is specified.
+
+  Examples:
+
+        Start mongosh using 'ships' database on specified connection string:
+        $ mongosh mongodb://192.168.0.5:9999/ships
+
+  For more information on usage: https://docs.mongodb.com/mongodb-shell.
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d mongosh -u 'the_username' -p 'the_password' --help -[K[K[K[K[K[KauthenticationDatabase 'the_database'
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&authSource=the_databaseCurrent Mongosh Log ID:	6628be0344e198a4b2c934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&authSource=the_database&appName=mongosh+2.2.4[0m
+Using MongoDB:		7.0.8
+[1m[33mUsing Mongosh[0m:		2.2.4
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+[1G[0J [1G[1G[0Jtest> [7Gshow dbs
+[1mthe_database[0m  72.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gl
+Uncaught [1m[31mReferenceError[0m: l is not defined
+[1G[0Jthe_database> [15Gls
+Uncaught [1m[31mReferenceError[0m: ls is not defined (Are you trying to run a script written for the legacy shell? Try running `snippet install mongocompat`)
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.find({{[1G[0Jthe_database> db.todos.find({[30G})
+[
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934dd'[39m),
+    text: [32m'Something you enjoy'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934de'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6628a6f713f99c2b1f7cffd5'[39m),
+    text: [32m'Something you enjoy 2'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7271ad2892dd61d8939'[39m),
+    text: [32m'Something you enjoy 3'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7351ad2892dd61d893b'[39m),
+    text: [32m'Something you enjoy 4'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.collection.insertOne()[1D[1G[0Jthe_database> db.collection.insertOne[44m([49m)[39G[1G[0Jthe_database> db.collection.insertOne[44m([49m{)[40G[1G[0Jthe_database> db.collection.insertOne[44m([49m{{)[41G[1G[0Jthe_database> db.collection.insertOne[44m([49m{{})[42G[1G[0Jthe_database> db.collection.insertOne[44m([49m{{)[41G[1G[0Jthe_database> db.collection.insertOne[44m([49m{)[40G[1G[0Jthe_database> db.collection.insertOne[44m([49m{})[41G[1D[1G[0Jthe_database> db.collection.insertOne([44m{[49m})[40G[1G[0Jthe_database> db.collection.insertOne([44m{[49mt})[41G[1G[0Jthe_database> db.collection.insertOne([44m{[49mte})[42G[1G[0Jthe_database> db.collection.insertOne([44m{[49mtex})[43G[1G[0Jthe_database> db.collection.insertOne([44m{[49mte})[42G[1G[0Jthe_database> db.collection.insertOne([44m{[49mt})[41G[1G[0Jthe_database> db.collection.insertOne([44m{[49m})[40G[1G[0Jthe_database> db.collection.insertOne([44m{[49mt})[41G[1G[0Jthe_database> db.collection.insertOne([44m{[49mte})[42G[1G[0Jthe_database> db.collection.insertOne([44m{[49mt})[41G[1G[0Jthe_database> db.collection.insertOne([44m{[49m})[40G[1G[0Jthe_database> db.collection.insertOne([44m{[49mt})[41G[1G[0Jthe_database> db.collection.insertOne([44m{[49mte})[42G[1G[0Jthe_database> db.collection.insertOne([44m{[49mtex})[43G[1G[0Jthe_database> db.collection.insertOne([44m{[49mtext})[44G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m:})[45G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: })[46G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'})[39m[47G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m''[39m})[48G[1D[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49m'[39m})[47G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mI'[39m})[48G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIn'[39m})[49G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mInc'[39m})[50G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncr'[39m})[51G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncre'[39m})[52G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrea'[39m})[53G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncreas'[39m})[54G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease'[39m})[55G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease '[39m})[56G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease t'[39m})[57G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease th'[39m})[58G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the'[39m})[59G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the '[39m})[60G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the n'[39m})[61G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the nu'[39m})[62G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the num'[39m})[63G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the numb'[39m})[64G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the numbe'[39m})[65G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number'[39m})[66G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number '[39m})[67G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number o'[39m})[68G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of'[39m})[69G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of '[39m})[70G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of t'[39m})[71G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of to'[39m})[72G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of too'[39m})[73G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tool'[39m})[74G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools'[39m})[75G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools '[39m})[76G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools i'[39m})[77G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in'[39m})[78G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in '[39m})[79G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in m'[39m})[80G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my'[39m})[81G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my '[39m})[82G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my t'[39m})[83G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my to'[39m})[84G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my too'[39m})[85G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my tool'[39m})[86G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolb'[39m})[87G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolbe'[39m})[88G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolbel'[39m})[89G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolbelt'[39m})[90G[1C[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m})[91G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m,})[92G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, })[93G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, d})[94G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [36mdo[39m})[95G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, dom})[96G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [36mdo[39m})[95G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, don})[96G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, done})[97G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m:})[98G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: })[99G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [32m'})[39m[100G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: })[99G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: F})[100G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: Fa}) [101G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: Fal})[102G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: Fals})[1G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: False})[2G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: False })[3G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: False})[2G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: Fals})[1G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: Fal})[102G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: Fa}) [101G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: F})[100G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: })[99G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: f})[100G[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: fa}) [101G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: fal})[102G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: fals})[1G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m})[2G[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[3G[2C[1A[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[5G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'6628be9d44e198a4b2c934dd'[39m)
+}
+[1G[0Jthe_database> [15Gt[1G[0Jthe_database> [15G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[5G[1A[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934dd'[39m),
+    text: [32m'Something you enjoy'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934de'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6628a6f713f99c2b1f7cffd5'[39m),
+    text: [32m'Something you enjoy 2'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7271ad2892dd61d8939'[39m),
+    text: [32m'Something you enjoy 3'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7351ad2892dd61d893b'[39m),
+    text: [32m'Something you enjoy 4'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0Jthe_database> [15G[1;1H[0J[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[5G[1A[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934dd'[39m),
+    text: [32m'Something you enjoy'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934de'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6628a6f713f99c2b1f7cffd5'[39m),
+    text: [32m'Something you enjoy 2'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7271ad2892dd61d8939'[39m),
+    text: [32m'Something you enjoy 3'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7351ad2892dd61d893b'[39m),
+    text: [32m'Something you enjoy 4'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[5G[1D[1A[1G[0Jthe_database> db.collection.insertOne[44m([49m{[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[4G[1D[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[3G[1D[1A[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[2G[1D[1A[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[102G[1A[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[90G[1A[1D[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[89G[1A[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt[44m'[39m[49m, [33mdone[39m: [33mfalse[39m })[46G[1A[1D[1G[0Jthe_database> db.collection.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[45G[1A[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[41G[1A[1G[0Jthe_database> db.collection.insertOne({ [32m'text: '[39mIncrease the number [36mof[39m tools [36min[39m my toolbelt[32m', done: false })[39m[42G[1A[1C[1C[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[47G[1A[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt[44m'[39m[49m, [33mdone[39m: [33mfalse[39m })[49G[1A[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[50G[1A[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [44m[32m'[49mIncrease the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[93G[1A[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[94G[1A[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done: false })[39m[97G[1A[1C[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'don'[39me: [33mfalse[39m })[101G[1A[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done: false })[39m[100G[1A[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[102G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [44m[32m'[49mdone'[39m: [33mfalse[39m })[101G[1A[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[10G[1A[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[10G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'6628bf9244e198a4b2c934de'[39m)
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[10G[1A[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934dd'[39m),
+    text: [32m'Something you enjoy'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934de'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6628a6f713f99c2b1f7cffd5'[39m),
+    text: [32m'Something you enjoy 2'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7271ad2892dd61d8939'[39m),
+    text: [32m'Something you enjoy 3'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7351ad2892dd61d893b'[39m),
+    text: [32m'Something you enjoy 4'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[10G[1D[1A[1G[0Jthe_database> db.collection.insertOne[44m([49m{ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[9G[1D[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[8G[1D[1A[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[7G[1D[1D[1D[1D[1D[1D[1A[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[102G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [44m[32m'[49mdone'[39m: [33mfalse[39m })[101G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[100G[1A[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done[44m'[39m[49m: [33mfalse[39m })[96G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[95G[1A[1D[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [44m[32m'[49mIncrease the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[93G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[92G[1A[1D[1D[1D[1D[1D[1C[1C[1C[1C[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [44m[32m'[49mIncrease the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[93G[1A[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[94G[1A[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done[44m'[39m[49m: [33mfalse[39m })[96G[1A[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [32m'done'[39m: [33mfalse[39m })[97G[1A[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, done[32m': false })[39m[96G[1A[1C[1C[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, done[32m': false })[39m[100G[1A[1C[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, done[32m': false })[39m[101G[1A[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[100G[1A[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [44m[32m'[49mIncrease the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[93G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[92G[1A[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt[44m'[39m[49m, [33mdone[39m: [33mfalse[39m })[49G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text'[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[48G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [32m'text: '[39mIncrease the number [36mof[39m tools [36min[39m my toolbelt[32m', done: false })[39m[46G[1A[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[41G[1A[1C[1C[1C[1C[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt[44m'[39m[49m, [33mdone[39m: [33mfalse[39m })[47G[1A[1C[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[48G[1A[1C[1C[1C[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[6G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'6628bfcf44e198a4b2c934df'[39m)
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[6G[1A[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934dd'[39m),
+    text: [32m'Something you enjoy'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934de'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6628a6f713f99c2b1f7cffd5'[39m),
+    text: [32m'Something you enjoy 2'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7271ad2892dd61d8939'[39m),
+    text: [32m'Something you enjoy 3'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7351ad2892dd61d893b'[39m),
+    text: [32m'Something you enjoy 4'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.collecitonf[1G[0Jthe_database> db.colleciton[28G[1G[0Jthe_database> db.collecito[27G[1G[0Jthe_database> db.collecit[26G[1G[0Jthe_database> db.colleci[25G[1G[0Jthe_database> db.collec[24G[1G[0Jthe_database> db.colle[23Gcttio[1G[0Jthe_database> db.collectti[27G[1G[0Jthe_database> db.collectt[26G[1G[0Jthe_database> db.collect[25Gion.findOne(+[1G[0Jthe_database> db.collection.findOne([37G)[1D[1G[0Jthe_database> db.collection.findOne[44m([49m)[37G[1G[0Jthe_database> db.collection.findOne[44m([49m[33m6[39m)[38G[1G[0Jthe_database> db.collection.findOne[44m([49m[33m66[39m)[39G[1G[0Jthe_database> db.collection.findOne[44m([49m[33m662[39m)[40G[1G[0Jthe_database> db.collection.findOne[44m([49m[33m6628[39m)[41G[1G[0Jthe_database> db.collection.findOne[44m([49m6628b)[42G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bf)[43G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfc)[44G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf)[45G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf4)[46G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44)[47G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e)[48G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e1)[49G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e19)[50G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198)[51G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a)[52G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4)[53G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4b)[54G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4b2)[55G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4b2c)[56G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4b2c9)[57G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4b2c93)[58G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4b2c934)[59G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4b2c934d)[60G[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4b2c934df)[61G^[[C    = sdas    a
+[1G[0Jthe_database> db.collection.findOne[44m([49m6628bfcf44e198a4b2c934dfa)[62G[1C[1G[0Jthe_database> db.collection.findOne(6628bfcf44e198a4b2c934dfa)[63G
+Uncaught:
+[1m[31mSyntaxError[0m: Identifier directly after number. (1:26)
+
+[0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39mcollection[33m.[39mfindOne([35m6628[39mbfcf44e198a4b2c934dfa)[0m
+[0m [90m   |[39m                           [31m[1m^[22m[39m[0m
+[0m [90m 2 |[39m[0m
+
+[1G[0Jthe_database> [15Gshows
+shows
+Uncaught [1m[31mReferenceError[0m: shows is not defined
+[1G[0Jthe_database> [15Gshow
+show
+Uncaught [1m[31mMongoshInvalidInputError[0m: [COMMON-10001] 'undefined' is not a valid argument for "show".
+[1G[0Jthe_database> [15G^[[A^[[A^[[A^[[A^[[A^[[A^[[B^C[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ docker exec -it 1d mongosh -u 'the_username' -p 'the_password' --authenticationDatabase 'the_database'help[K[K[C[C[C[C"the_username" -p "the_password"[C[C[C[C[C'the_username' -p 'the_password'[C--helpauthenticationDatabase 'the_database'[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it 1d mongosh -u 'the_username' -p 'the_password' --authenticationDatabase 'the_database'
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&authSource=the_databaseCurrent Mongosh Log ID:	6628c02cffb1bf8611c934dc
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&authSource=the_database&appName=mongosh+2.2.4[0m
+Using MongoDB:		7.0.8
+[1m[33mUsing Mongosh[0m:		2.2.4
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+[1G[0J [1G[1G[0Jtest> [7Gshow dbs
+[1mthe_database[0m  144.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gtodos
+Uncaught [1m[31mReferenceError[0m: todos is not defined
+[1G[0Jthe_database> [15Gshow collections
+[1mcollection[0m
+[1mtodos[0m
+[1G[0Jthe_database> [15Gtodo[1G[0Jthe_database> tod[18G[1G[0Jthe_database> to[17G[1G[0Jthe_database> t[16G[1G[0Jthe_database> [15Gdb.todos.collection[1G[0Jthe_database> db.todos.collectio[33G[1G[0Jthe_database> db.todos.collecti[32G[1G[0Jthe_database> db.todos.collect[31G[1G[0Jthe_database> db.todos.collec[30G[1G[0Jthe_database> db.todos.colle[29G[1G[0Jthe_database> db.todos.coll[28G[1G[0Jthe_database> db.todos.col[27G[1G[0Jthe_database> db.todos.co[26G[1G[0Jthe_database> db.todos.c[25G[1G[0Jthe_database> db.todos.[24Gfind({})
+[
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934dd'[39m),
+    text: [32m'Something you enjoy'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934de'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6628a6f713f99c2b1f7cffd5'[39m),
+    text: [32m'Something you enjoy 2'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7271ad2892dd61d8939'[39m),
+    text: [32m'Something you enjoy 3'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7351ad2892dd61d893b'[39m),
+    text: [32m'Something you enjoy 4'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.collection.find()[1D[1G[0Jthe_database> db.collection.find[44m([49m)[34G[1G[0Jthe_database> db.collection.find[44m([49m{)[35G[1G[0Jthe_database> db.collection.find[44m([49m{})[36G[1C[1G[0Jthe_database> db.collection.find({})[37G
+[
+  {
+    _id: ObjectId([32m'6628be9d44e198a4b2c934dd'[39m),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6628bf9244e198a4b2c934de'[39m),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6628bfcf44e198a4b2c934df'[39m),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.collection.find({})[37G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> show collections[31G[1G[0Jthe_database> todos[20G[1G[0Jthe_database> use the_database[31G[1G[0Jthe_database> show dbs[23G[1G[0Jthe_database> show[19G[1G[0Jthe_database> shows[20G[1G[0Jthe_database> db.collection.findOne(6628bfcf44e198a4b2c934dfa)[63G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[6G[1A[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.collection.findOne(6628bfcf44e198a4b2c934dfa)[63G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[6G[1D[1A[1G[0Jthe_database> db.collection.insertOne[44m([49m{ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[5G[1D[1A[1G[0Jthe_database> db.collection.insertOne([44m{[49m [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[4G[1D[1A[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[3G[1D[1D[1A[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[102G[1A[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[91G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[90G[1A[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt[44m'[39m[49m, [33mdone[39m: [33mfalse[39m })[47G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[46G[1A[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m [44m}[49m)[39G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m }[44m)[49m[38G[1A[1D[1G[0Jthe_database> db.collection.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[37G[1A[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collectio.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[27G[1A[1G[0Jthe_database> db.collecti.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[26G[1A[1G[0Jthe_database> db.collect.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[25G[1A[1G[0Jthe_database> db.collec.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[24G[1A[1G[0Jthe_database> db.colle.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m }) [23G[1A[1G[0Jthe_database> db.coll.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[22G[1G[0Jthe_database> db.col.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[21G[1G[0Jthe_database> db.co.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[20G[1G[0Jthe_database> db.c.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[19G[1G[0Jthe_database> db..insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[18G[1G[0Jthe_database> db.t.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[19G[1G[0Jthe_database> db.to.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[20G[1G[0Jthe_database> db.tod.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[21G[1G[0Jthe_database> db.todo.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m })[22G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m }) [23G[1A[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m }) [1G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'6628c064ffb1bf8611c934dd'[39m)
+}
+[1G[0Jthe_database> [15Gls[1G[0Jthe_database> l[16G[1G[0Jthe_database> [15Gcollections
+Uncaught [1m[31mReferenceError[0m: collections is not defined
+[1G[0Jthe_database> [15Gshow collections
+[1mcollection[0m
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.collection.remove()
+DeprecationWarning: Collection.remove() is deprecated. Use deleteOne, deleteMany, findOneAndDelete, or bulkWrite.
+Uncaught [1m[31mMongoshInvalidInputError[0m: [COMMON-10001] Missing required argument at position 0 (Collection.remove)
+[1G[0Jthe_database> [15Gdb.collection.remove({})
+{ acknowledged: [33mtrue[39m, deletedCount: [33m3[39m }
+[1G[0Jthe_database> [15Gshow collections
+[1mcollection[0m
+[1mtodos[0m
+[1G[0Jthe_database> [15G[1G[0Jthe_database> show collections[31G[1G[0Jthe_database> db.collection.remove({})[39G[1G[0Jthe_database> db.collection.remove()[37G[1G[0Jthe_database> show collections[31G[1G[0Jthe_database> collections[26G[1G[0Jthe_database> show collections[31G[1G[0Jthe_database> db.collection.remove()[37G[1G[0Jthe_database> show collections[31G[1G[0Jthe_database> db.collection.remove()[37G[1G[0Jthe_database> db.collection.remove({})[39G[1G[0Jthe_database> db.collection.remove()[37G[1G[0Jthe_database> show collections[31G[1G[0Jthe_database> collections[26G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m }) [1G[1A[1G[0Jthe_database> db.collection.find({})[37G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.collection.find({})[37G[1G[0Jthe_database> db.todos.find({})[32G[1D[1G[0Jthe_database> db.todos.find[44m([49m{})[31G[1D[1G[0Jthe_database> db.todos.find([44m{[49m})[30G[1D[1G[0Jthe_database> db.todos.find({[44m}[49m)[29G[1D[1G[0Jthe_database> db.todos.find({}[44m)[49m[28G[1D[1G[0Jthe_database> db.todos.find({})[27G[1D[1D[1D[1D[1D[1C[1G[0Jthe_database> db.todo.find({})[22G[1G[0Jthe_database> db.tod.find({})[21G[1G[0Jthe_database> db.to.find({})[20G[1G[0Jthe_database> db.t.find({})[19G[1G[0Jthe_database> db..find({})[18G[1G[0Jthe_database> db.find({})[17G[1G[0Jthe_database> db..find({})[18G[1G[0Jthe_database> db.c.find({})[19G[1G[0Jthe_database> db.co.find({})[20G[1G[0Jthe_database> db.col.find({})[21G[1G[0Jthe_database> db.coll.find({})[22G[1G[0Jthe_database> db.colle.find({})[23G[1G[0Jthe_database> db.collec.find({})[24G[1G[0Jthe_database> db.collect.find({})[25G[1G[0Jthe_database> db.collecti.find({})[26G[1G[0Jthe_database> db.collectio.find({})[27G[1G[0Jthe_database> db.collection.find({})[28G[9C
+
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.collection.find({})[37G[1D[1G[0Jthe_database> db.collection.find[44m([49m{})[36G[1D[1G[0Jthe_database> db.collection.find([44m{[49m})[35G[1D[1G[0Jthe_database> db.collection.find({[44m}[49m)[34G[1D[1G[0Jthe_database> db.collection.find({}[44m)[49m[33G[1D[1G[0Jthe_database> db.collection.find({})[32G[1D[1D[1D[1D[1G[0Jthe_database> db.collectio.find({})[27G[1G[0Jthe_database> db.collecti.find({})[26G[1G[0Jthe_database> db.collect.find({})[25G[1G[0Jthe_database> db.collec.find({})[24G[1G[0Jthe_database> db.colle.find({})[23G[1G[0Jthe_database> db.coll.find({})[22G[1G[0Jthe_database> db.col.find({})[21G[1G[0Jthe_database> db.co.find({})[20G[1G[0Jthe_database> db.c.find({})[19G[1G[0Jthe_database> db..find({})[18G[1G[0Jthe_database> db.t.find({})[19G[1G[0Jthe_database> db.to.find({})[20G[1G[0Jthe_database> db.tod.find({})[21G[1G[0Jthe_database> db.todo.find({})[22G[1G[0Jthe_database> db.todos.find({})[23G[9C
+[
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934dd'[39m),
+    text: [32m'Something you enjoy'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'66276d765a7acb1bd7c934de'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6628a6f713f99c2b1f7cffd5'[39m),
+    text: [32m'Something you enjoy 2'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7271ad2892dd61d8939'[39m),
+    text: [32m'Something you enjoy 3'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628a7351ad2892dd61d893b'[39m),
+    text: [32m'Something you enjoy 4'[39m,
+    done: [33mtrue[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6628c064ffb1bf8611c934dd'[39m),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ exit
+[?2004lexit
+
+Script done on 2024-04-24 15:21:11+07:00 [COMMAND_EXIT_CODE="0"]
