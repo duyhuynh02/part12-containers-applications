@@ -7,4 +7,4 @@ COPY --chown=node:node . .
 RUN npm ci
 
 USER node 
-CMD npm run dev 
+CMD npm run start 
