@@ -17,14 +17,15 @@ router.get('/', async (req, res) => {
   });
 });
 
-router.get('/statistics', (req, res) => {
-  let added_todos = parseInt(getAsync('added_todos'));
+router.get('/statistics', async (req, res) => {
+
+  let added_todos = await getAsync("added_todos");
 
   // Check if added_todos is a valid object
   if (!isNaN(added_todos)) {
-    res.status(200).send({ added_todos }); // Convert to string before sending
+    res.status(200).send({ 'added_todos': parseInt(added_todos) }); 
   } else {
-    res.status(500).send('Error: Invalid todo count'); // Handle the case when added_todos is NaN
+    res.status(500).send('Error: Invalid todo count'); 
   }
 });
 

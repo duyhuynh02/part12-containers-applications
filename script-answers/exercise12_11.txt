@@ -1,0 +1,1761 @@
+Script started on 2024-04-30 14:01:47+07:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="92" LINES="49"]
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications[00m$ cd ../todod[K[K[K[K[K[K[K[K..
+[?2004l[?2004h]0;duyhuynh@RK-D8ZZNL3: ~[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mpart12-containers-applications[0m  [01;34mpart13[0m  [01;34mprojects[0m  [01;34msnap[0m  [01;34mtests[0m
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~[00m$ cd part1
+[?2004lbash: cd: part1: No such file or directory
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~[00m$ cd part12
+[?2004lbash: cd: part12: No such file or directory
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~[00m$ cd part12 [K-containers-applications/
+[?2004l[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications[00m$ ls
+[?2004lindex.js  [0m[01;34mscript-answers[0m  [01;34mtest[0m  [01;34mtodo-app[0m  typescript
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications[00m$ cd t[Ktodo-app//[Kto[K[Kbak[K[K[Ktodo-backend/
+[?2004l[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ ls
+[?2004lDockerfile  app.js  docker-compose.dev.yml  [0m[01;34mmongo[0m         package-lock.json  [01;34mredis[0m   [01;34mutil[0m
+README.md   [01;34mbin[0m     docker-compose.yml      [01;34mnode_modules[0m  package.json       [01;34mroutes[0m
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [H[2J]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [K]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ node[K[K[K[Klscd todo-app/todo-backend/[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd part12-containers-applications/[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd todo-app/todo-backend/[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Khistory
+[?2004l 1010  ./vector-deadlock -n 2 -l 1 -v -d
+ 1011  ./vector-deadlock -n 2 -l 2 -v -d
+ 1012  ./vector-deadlock -n 2 -l 3 -v -d
+ 1013  ./vector-deadlock -n 2 -l 4 -v -d
+ 1014  ./vector-deadlock -n 1 -l 4 -v -d
+ 1015  ./vector-deadlock -n 1 -l 1 -v -d
+ 1016  ./vector-deadlock -n 2 -l 2 -v -d
+ 1017  ./vector-deadlock -n 2 -l 3 -v -d
+ 1018  ./vector-deadlock -n 2 -l 4 -v -d
+ 1019  ./vector-deadlock -n 2 -l 100 -v -d
+ 1020  ./vector-deadlock -n 2 -l 1000 -v -d
+ 1021  ./vector-deadlock -n 2 -l 10000 -v -d
+ 1022  ./vector-deadlock -n 2 -l 1000 -v -d
+ 1023  ./vector-deadlock -n 2 -l 5000 -v -d
+ 1024  ./vector-deadlock -n 3 -l 1 -v -d
+ 1025  ./vector-deadlock -n 5 -l 1 -v -d
+ 1026  ./vector-deadlock -n 10 -l 1 -v -d
+ 1027  ./vector-deadlock -n 20 -l 1 -v -d
+ 1028  ./vector-deadlock -n 100 -l 1 -v -d
+ 1029  ./vector-deadlock -n 99 -l 1 -v -d
+ 1030  ./vector-deadlock -n 1 -l 1 -v -d
+ 1031  ./vector-deadlock -n 0 -l 1 -v -d
+ 1032  ./vector-deadlock -n 1 -l 1 -v -d
+ 1033  gcc -o vector-global-order vector-global-order.c -Wall -pthread -O
+ 1034  ./vector-global-order -t -n 2 -l 100000 -d
+ 1035  ./vector-global-order -t -n 2 -l 10 -d
+ 1036  ./vector-global-order -t -n 2 -l 100 -d
+ 1037  ./vector-global-order -t -n 2 -l 1000 -d
+ 1038  ./vector-global-order -t -n 2 -l 10000 -d
+ 1039  ./vector-global-order -t -n 2 -l 100000 -d
+ 1040  ./vector-global-order -t -n 2 -l 200000 -d
+ 1041  ./vector-global-order -t -n 2 -l 300000 -d
+ 1042  ./vector-global-order -t -n 2 -l 1000000 -d
+ 1043  ./vector-global-order -t -n 2 -l 1000000 -d -p
+ 1044  ./vector-global-order -t -n 2 -l 300000 -d -p
+ 1045  ./vector-global-order -t -n 2 -l 200000 -d -p
+ 1046  ./vector-global-order -t -n 2 -l 100000 -d -p
+ 1047  gcc -o vector-try-wait vector-try-wait.c -Wall -pthread -O
+ 1048  ./vector-try-wait 
+ 1049  ./vector-try-wait -t -n 2 -l 10000 -d 
+ 1050  ./vector-try-wait -t -n 2 -l 100000 -d 
+ 1051  ./vector-try-wait -t -n 2 -l 10 -d 
+ 1052  ./vector-try-wait -t -n 2 -l 100 -d 
+ 1053  ./vector-try-wait -t -n 2 -l 1000 -d 
+ 1054  ./vector-try-wait -t -n 2 -l 10000 -d 
+ 1055  ./vector-try-wait -t -n 2 -l 20000 -d 
+ 1056  ./vector-try-wait -t -n 2 -l 30000 -d 
+ 1057  gcc -o vector-avoid-hold-and-wait vector-avoid-hold-and-wait.c -Wall -pthread -O
+ 1058  ./vector-avoid-hold-and-wait -t -n 2 -l 10000 -d
+ 1059  ./vector-avoid-hold-and-wait -t -n 2 -l 10000 -d -p 
+ 1060  ./vector-avoid-hold-and-wait -t -n 2 -l 20000 -d -p 
+ 1061  ./vector-avoid-hold-and-wait -t -n 2 -l 30000 -d -p 
+ 1062  ./vector-avoid-hold-and-wait -t -n 2 -l 10000 -d -p 
+ 1063  ./vector-avoid-hold-and-wait -t -n 2 -l 100000 -d -p 
+ 1064  ./vector-avoid-hold-and-wait -t -n 2 -l 1000000 -d -p 
+ 1065  gcc -o vector-nolock vector-nolock.c -Wall -pthread -O
+ 1066  ./vector-nolock -t -n 2 -l 10000 -d 
+ 1067  ./vector-nolock -t -n 2 -l 20000 -d 
+ 1068  ./vector-nolock -t -n 2 -l 30000 -d 
+ 1069  ./vector-nolock -t -n 2 -l 10000 -d -p
+ 1070  ./vector-nolock -t -n 2 -l 20000 -d -p
+ 1071  ./vector-nolock -t -n 2 -l 30000 -d -p
+ 1072  ls
+ 1073  cd ..
+ 1074  ls
+ 1075  mkdir threads-events 
+ 1076  ls
+ 1077  cd threads-events/
+ 1078  ls
+ 1079  code . 
+ 1080  touch tcp.c 
+ 1081  ls
+ 1082  nano tcp
+ 1083  nano server.c
+ 1084  gcc server.c -o server 
+ 1085  ./server 
+ 1086  nano server.c
+ 1087  gcc server.c -o server 
+ 1088  nano server.c
+ 1089  ./server 
+ 1090  gcc server.c -o server 
+ 1091  ./server 
+ 1092  gcc server.c -o server 
+ 1093  ./server 
+ 1094  gcc server.c -o server 
+ 1095  ./server 
+ 1096  gcc server.c -o server 
+ 1097  ./server 
+ 1098  gcc server.c -o server 
+ 1099  ./server 
+ 1100  gcc server.c -o server 
+ 1101  ./server 
+ 1102  gcc server.c -o server 
+ 1103  ./server 
+ 1104  ls
+ 1105  nano server.c
+ 1106  cd ..
+ 1107  ls
+ 1108  mkdir file-integrity
+ 1109  ls
+ 1110  cd file-integrity/
+ 1111  ls
+ 1112  touch check-xor.c
+ 1113  code . 
+ 1114  touch solutions.md 
+ 1115  nano solutions.md
+ 1116  nano check-xor.c 
+ 1117  cd projects
+ 1118  cd ..
+ 1119  ls
+ 1120  nano last-modified.txt 
+ 1121  top .
+ 1122  top --help
+ 1123  top -hv
+ 1124  htop .
+ 1125  ls
+ 1126  find /projects -name "*.c"
+ 1127  find /projects/threads-sema -name "*.c"
+ 1128  find ./projects/threads-sema -name "*.c"
+ 1129  find ./projects/threads-sema "*.c"
+ 1130  find ./projects/threads-sema -name "*.c"
+ 1131  find --help
+ 1132  ls
+ 1133  nano last-modified.txt 
+ 1134  ls
+ 1135  cd part12-containers-applications/
+ 1136  ls
+ 1137  code . 
+ 1138  git status
+ 1139  git log
+ 1140  ls
+ 1141  cd script-answers/
+ 1142  ls
+ 1143  cd ..
+ 1144  ls
+ 1145  cd todo-app/
+ 1146  ls
+ 1147  cd todo-
+ 1148  cd todo-backend/
+ 1149  ls
+ 1150  cd ~
+ 1151  ls
+ 1152  rm last-modified.txt.save 
+ 1153  ls
+ 1154  cd part12-containers-applications/
+ 1155  ls
+ 1156  cd script-answers/
+ 1157  ls
+ 1158  cd ..
+ 1159  nano index.js
+ 1160  ls
+ 1161  cd test
+ 1162  ls
+ 1163  code . 
+ 1164  git status
+ 1165  git add . 
+ 1166  git status
+ 1167  ls
+ 1168  cd ..
+ 1169  git status
+ 1170  git add . 
+ 1171  git status
+ 1172  git commit -m "from exs 12.1 -> 12.4" 
+ 1173  ls
+ 1174  cd todo-app/
+ 1175  ls
+ 1176  cd todo-backend/
+ 1177  ls
+ 1178  code. 
+ 1179  code . 
+ 1180  npm install
+ 1181  npm start 
+ 1182  npm run dev
+ 1183  touch Dockerfile 
+ 1184  ls
+ 1185  nano Dockerfile
+ 1186  chown --help
+ 1187  ls
+ 1188  docker build -t todo-backend .
+ 1189  docker run -p 3030:3000 todo-backend
+ 1190  git -v
+ 1191  git --version
+ 1192  git log
+ 1193  git config --global user.name "Duy Huynh"
+ 1194  git config --global user.email "minhduyhuynh16@gmail.com"
+ 1195  git status
+ 1196  git add . 
+ 1197  git commit -m "Exs from 12.1 to 12.4" 
+ 1198  git status
+ 1199  git log
+ 1200  git push 
+ 1201  ls
+ 1202  git status
+ 1203  git log
+ 1204  git push origin main
+ 1205  git status
+ 1206  git log
+ 1207  git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager-core.exe"
+ 1208  git push
+ 1209  nano README
+ 1210  ls
+ 1211  git status
+ 1212  git add . 
+ 1213  git commit -m "Add read me"
+ 1214  git púh
+ 1215  git push
+ 1216  ls
+ 1217  rm README 
+ 1218  ls
+ 1219  docker run -p 3030:3000 todo-backend
+ 1220  docker run -p 3000:3030 todo-backend
+ 1221  docker run -p 3000:3000 todo-backend
+ 1222  git status
+ 1223  git add . 
+ 1224  git commit -m "done ex 12.5" 
+ 1225  git log
+ 1226  docker kill 82
+ 1227  docker kill 4b
+ 1228  cd part12-containers-applications/todo-app/todo-backend/
+ 1229  ls
+ 1230  docker compose -f docker-compose.dev.yml up -d 
+ 1231  nano ./mongo/mongo-init.js 
+ 1232  ls
+ 1233  nano docker-compose.dev.yml 
+ 1234  ls
+ 1235  nano docker-compose.dev.yml 
+ 1236  MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1237  ls
+ 1238  docker volumn fs
+ 1239  docker volumn ls
+ 1240  volume ls
+ 1241  docker volume ls
+ 1242  docker volume inspect todo-backend_mongo_data
+ 1243  docker volumn rm
+ 1244  docker volume rm
+ 1245  docker volume rm todo-backend
+ 1246  docker volume rm todo-backend_mongo_data
+ 1247  docker volume ls
+ 1248  docker volume inspect todo-backend_mongo_data
+ 1249  npm rund ev
+ 1250  npm run dev
+ 1251  MONGO_URL=mongodb://localhost:3000/the_database npm run dev
+ 1252  MONGO_URL=mongodb://localhost:3456/the_database npm run dev
+ 1253  MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1254  ls
+ 1255  cd part12-containers-applications/
+ 1256  ls
+ 1257  cd todo-app/
+ 1258  ls
+ 1259  cd todo-backend/
+ 1260  ls
+ 1261  code . 
+ 1262  docker run -p 3000:3000 todo-backend
+ 1263  ;s
+ 1264  cd ..
+ 1265  ls
+ 1266  cd ..
+ 1267  ls
+ 1268  cd test
+ 1269  ls
+ 1270  docker kill 76
+ 1271  touch docker-compose.yml
+ 1272  nano docker-compose.yml 
+ 1273  code . 
+ 1274  docker compose up
+ 1275  ls
+ 1276  docker compose up --build
+ 1277  ks
+ 1278  ls
+ 1279  nano docker-compose.yml 
+ 1280  docker compose up
+ 1281  ls -a
+ 1282  ls --la
+ 1283  ls -la
+ 1284  nano docker-compose.yml 
+ 1285  docker compose up
+ 1286  docker kill 29
+ 1287  cd ../todo-app/todo-backend/
+ 1288  ls
+ 1289  touch docker-compose-yml
+ 1290  ls
+ 1291  rn --help
+ 1292  ls
+ 1293  mv docker-compose-yml docker-compose.yml
+ 1294  ls
+ 1295  nano docker-compose.yml 
+ 1296  docker compose up
+ 1297  touch docker-compose.dev.yml
+ 1298  nano docker-compose.dev.yml 
+ 1299  docker compose -f docker-compose.dev.yml up
+ 1300  npm install
+ 1301  $ MONGO_URL=mongodb://localhost:3456/the_database npm run dev
+ 1302  MONGO_URL=mongodb://localhost:3456/the_database npm run dev
+ 1303  docker compose -f docker-compose.dev.yml down --volumes
+ 1304  docker compose -f docker-compose.dev.yml up
+ 1305  nano docker-compose.dev.yml 
+ 1306  nano .gitignore 
+ 1307  nano docker-compose.dev.yml 
+ 1308  docker compose -f docker-compose.dev.yml up
+ 1309  cd part12-containers-applications/
+ 1310  ls
+ 1311  cd todo-app/
+ 1312  ls
+ 1313  cd todo-backend/
+ 1314  ls
+ 1315  docker compose -f docker-compose.dev.yml upMONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1316  MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1317  exit
+ 1318  docker exec -it cb mongoo --username the_username --password the_password --authenticationDatabase the_database
+ 1319  docker exec -it cb mongo --username the_username --password the_password --authenticationDatabase the_database
+ 1320  docker exec -it cb mongosh --username the_username --password the_password --authenticationDatabase the_database
+ 1321  docker exec -it cb --username the_username --password the_password --authenticationDatabase the_database mongo:latest mongosh
+ 1322  docker exect -it 1d mongosh -u "my_username" -p "my_password" 
+ 1323  docker exec -it 1d mongosh -u "my_username" -p "my_password" 
+ 1324  docker exect -it mongo-1 bash -u "the_username" -p "the_password"
+ 1325  docker exec -it mongo-1 bash -u "the_username" -p "the_password"
+ 1326  docker exec -it 1d bash -u "the_username" -p "the_password"
+ 1327  docker exec -it 1d -u "the_username" -p "the_password"
+ 1328  docker exec -it 1d -u "the_username" -p "the_password" bash
+ 1329  docker exec -it 1d -u the_username -p the_password bash
+ 1330  ls
+ 1331  cd ..
+ 1332  ls
+ 1333  cd todo-app/todo-backend/
+ 1334  ls
+ 1335  docker exec -it 1d -u the_username -p the_password bash
+ 1336  docker exec -it 1d -u "the_username" -p "the_password" bash
+ 1337  docker exec -it 1d -u "the_username" -p "the_password" bash mongosh
+ 1338  docker exec -it 1d mongosh -u "the_username" -p "the_password"
+ 1339  docker exec -it 1d mongosh -u "the_username" -p "the_password" bash
+ 1340  docker exec -it 1d mongosh -u the_username -p the_password 
+ 1341  docker exec -it 1d mongosh -u "the_username" -p "the_password" 
+ 1342  docker exec -it 1d mongosh -u 'the_username' -p 'the_password' 
+ 1343  docker exec -it 1d mongosh -u 'the_username' -p 'the_password' --help
+ 1344  docker exec -it 1d mongosh -u 'the_username' -p 'the_password' --authenticationDatabase 'the_database'
+ 1345  exit
+ 1346  ls
+ 1347  cd ..
+ 1348  ls
+ 1349  cd par
+ 1350  ls
+ 1351  cd ..
+ 1352  cd 
+ 1353  ls
+ 1354  cd part12-containers-applications/
+ 1355  ls
+ 1356  cd 
+ 1357  cd todo-a
+ 1358  cd todo-app
+ 1359  ls
+ 1360  cd part12-containers-applications/
+ 1361  ls
+ 1362  cd todo-app/
+ 1363  ls
+ 1364  cd todo-backend/
+ 1365  ls
+ 1366  code . 
+ 1367  git status
+ 1368  git log
+ 1369  git status
+ 1370  git log
+ 1371  docker compose -f docker-compose.dev.yml up
+ 1372  ls
+ 1373  cd ..
+ 1374  ls
+ 1375  cd ..
+ 1376  ls
+ 1377  cd test
+ 1378  ls
+ 1379  cd ..
+ 1380  ls
+ 1381  cd test
+ 1382  docker container run -d ngĩn
+ 1383  docker container run -d nginx
+ 1384  docker container ls
+ 1385  docker container stop 52
+ 1386  docker contain rm 52
+ 1387  docker container rm 52
+ 1388  docker container run -d -p 8080:80 nginx
+ 1389  docker contain ls
+ 1390  docker container ls
+ 1391  docker exect -it zen
+ 1392  docker exect -it zen_matsumoto
+ 1393  docker exec -it cb
+ 1394  docker exec -it cb bash
+ 1395  ls
+ 1396  cd ..
+ 1397  ls
+ 1398  cd script-answers/
+ 1399  ls
+ 1400  touch exercise12_8.txt
+ 1401  script 
+ 1402  ls
+ 1403  rm typescript 
+ 1404  ls
+ 1405  script exercise12_8.txt 
+ 1406  ls
+ 1407  nano exercise12_8.txt 
+ 1408  git status
+ 1409  git log
+ 1410  git status
+ 1411  git log
+ 1412  git commit -m "done ex 12.8" 
+ 1413  git add .
+ 1414  git commit -m "done ex 12.8" 
+ 1415  git status
+ 1416  git log
+ 1417  ls
+ 1418  cd part12-containers-applications/
+ 1419  ls
+ 1420  cd todo-app/
+ 1421  ls
+ 1422  cd todo-backend/
+ 1423  ls
+ 1424  MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1425  git status
+ 1426  cd ..
+ 1427  ls
+ 1428  git status
+ 1429  cd todo-backend/
+ 1430  ls
+ 1431  git status
+ 1432  git add . 
+ 1433  git status
+ 1434  git commit -m "done ex 12.7"
+ 1435  git status
+ 1436  git log
+ 1437  git commit --amend
+ 1438  git log
+ 1439  docker compose -f docker-compose.dev.yml up
+ 1440  ls
+ 1441  nano docker-compose.dev.yml 
+ 1442  ls
+ 1443  cd part12-containers-applications/
+ 1444  ls
+ 1445  cd todo-app/
+ 1446  ls
+ 1447  cd todo-
+ 1448  cd todo-backend/
+ 1449  ls
+ 1450  history 20
+ 1451  grep 1912 
+ 1452  grep history 1912
+ 1453  MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1454  ls
+ 1455  cd 
+ 1456  ls
+ 1457  cd ..
+ 1458  ls
+ 1459  cd ..
+ 1460  ls
+ 1461  cd varr
+ 1462  cd var
+ 1463  ls
+ 1464  cd lib/docker
+ 1465  ls
+ 1466  cd lib
+ 1467  ls
+ 1468  cd docker-desktop/
+ 1469  ls
+ 1470  cd ~ 
+ 1471  ls
+ 1472  cd part12-containers-applications/
+ 1473  ls
+ 1474  cd todo-app/
+ 1475  ls
+ 1476  history 20
+ 1477  history 50
+ 1478  docker compose -f docker-compose.dev.yml up
+ 1479  ls
+ 1480  docker compose -f docker-compose.dev.yml up
+ 1481  cd todo-backend/
+ 1482  ls
+ 1483  docker compose -f docker-compose.dev.yml up
+ 1484  docker volumn ls
+ 1485  docker volume ls
+ 1486  docker volume inspect 
+ 1487  docker volume inspect todo
+ 1488  docker volume inspect todo-backend_mongo_data
+ 1489  docker kill 60
+ 1490  docker history
+ 1491  history
+ 1492  docker compose -f docker-compose.dev.yml up
+ 1493  docker compose -f docker-compose.dev.yml down
+ 1494  docker compose -f docker-compose.dev.yml up
+ 1495  docker compose -f docker-compose.dev.yml up -f
+ 1496  docker kill a2
+ 1497  docker compose -f docker-compose.dev.yml up -f
+ 1498  docker compose -f docker-compose.dev.yml up 
+ 1499  git status
+ 1500  git add . 
+ 1501  git status
+ 1502  git commit -m "done ex 12.9" 
+ 1503  git status
+ 1504  git log
+ 1505  ls
+ 1506  docker run -p 6379-6379 -it redis/redis-stack-server:latest
+ 1507  docker images
+ 1508  docker image ls
+ 1509  docker run -p 6379-6379 -it redis/redis-stack-server:latest
+ 1510  history
+ 1511  docker compose -f docker-compose.dev.yml up
+ 1512  redis cli
+ 1513  docker compose -f docker-compose.dev.yml up -d
+ 1514  docker container ls
+ 1515  docker exect -it 4e bash
+ 1516  docker exec -it 4e bash
+ 1517  ls
+ 1518  docker ls
+ 1519  docker container ls
+ 1520  docker volume ls
+ 1521  docker exec -it 4e bash
+ 1522  docker kill 72
+ 1523  docker kill 4e
+ 1524  ls
+ 1525  nano docker-compose.dev.yml 
+ 1526  cd ~
+ 1527  ls
+ 1528  cd .. 
+ 1529  ls
+ 1530  cd ..
+ 1531  ls
+ 1532  cd Docker
+ 1533  ls
+ 1534  cd host
+ 1535  ls
+ 1536  cd ..
+ 1537  ls
+ 1538  cd /path
+ 1539  cd ~
+ 1540  ls
+ 1541  cd part12-containers-applications/
+ 1542  ls
+ 1543  cd todo-app/
+ 1544  ls
+ 1545  cd todo-backend/
+ 1546  ls
+ 1547  history
+ 1548  docker run -p 6379-6379 -it redis/redis-stack-server:latest
+ 1549  docker run -p 6379-6379 -it redis/redis-stack-server:latest -d
+ 1550  docker run -p 6379-6379 -d redis/redis-stack-server:latest 
+ 1551  docker exec -it lucid bash
+ 1552  ls
+ 1553  docker kill 7e
+ 1554  docker run -d -p 6379:6379 7e
+ 1555  docker run -d -p 6379:6379 brave_northcutt
+ 1556  docker images
+ 1557  docker run -d -p 6379:6379 redis/redis-stack-server:latest
+ 1558  docker kill lucid
+ 1559  docker kill 03
+ 1560  docker run -d --name some-redis -p 6379:6379 redis
+ 1561  docker run -d --name have-fun -p 6379:6379 redis
+ 1562  docker exec -it have-fun bash
+ 1563  exit
+ 1564  ls
+ 1565  cd part12-containers-applications/
+ 1566  ls
+ 1567  git status
+ 1568  git log
+ 1569  ls
+ 1570  cd test
+ 1571  ls
+ 1572  docker run --name some-redis -d redis
+ 1573  docker run -it --network some-network --rm redis redis-cli -h some-redis
+ 1574  ls
+ 1575  docker kill 41
+ 1576  ls
+ 1577  nano Dockerfile 
+ 1578  nano docker-compose.yml 
+ 1579  ls
+ 1580  cd .
+ 1581  cd ..
+ 1582  ls
+ 1583  cd todo-app/
+ 1584  ls
+ 1585  cd todo-backend/
+ 1586  ls
+ 1587  nano Dockerfile 
+ 1588  ls
+ 1589  nano docker-compose.
+ 1590  ls
+ 1591  nano docker-compose.yml
+ 1592  nano docker-compose.dev.yml 
+ 1593  code . 
+ 1594  history 
+ 1595  REDIS_URL=redis://3456:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1596  REDIS_URL=redis://3457:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1597  exit
+ 1598  cd projects
+ 1599  ls
+ 1600  cd file-integrity/
+ 1601  ls
+ 1602  code . 
+ 1603  touch test-files.txt
+ 1604  nano test-files.txt 
+ 1605  gcc check-xor.c -o check-xor 
+ 1606  ./check-xor 
+ 1607  ./check-xor test-files.txt
+ 1608  ./check-xor 
+ 1609  gcc check-xor.c -o check-xor 
+ 1610  ./check-xor test-files.txt
+ 1611  gcc check-xor.c -o check-xor 
+ 1612  ./check-xor test-files.txt
+ 1613  gcc check-xor.c -o check-xor 
+ 1614  ./check-xor test-files.txt
+ 1615  gcc check-xor.c -o check-xor 
+ 1616  ./check-xor test-files.txt
+ 1617  gcc check-xor.c -o check-xor 
+ 1618  ./check-xor test-files.txt
+ 1619  python3
+ 1620  ./check-xor test-files.txt
+ 1621  gcc check-xor.c -o check-xor 
+ 1622  ./check-xor test-files.txt
+ 1623  gcc check-xor.c -o check-xor 
+ 1624  ./check-xor test-files.txt
+ 1625  gcc check-xor.c -o check-xor 
+ 1626  ./check-xor test-files.txt
+ 1627  gcc check-xor.c -o check-xor 
+ 1628  ./check-xor test-files.txt
+ 1629  gcc check-xor.c -o check-xor 
+ 1630  ./check-xor test-files.txt
+ 1631  gcc check-xor.c -o check-xor 
+ 1632  ls
+ 1633  cd 
+ 1634  ls
+ 1635  cd projects
+ 1636  cd file-integrity/
+ 1637  ls
+ 1638  ./check-xor 
+ 1639  ./check-xor test-files.txt 
+ 1640  touch check-fletcher.c 
+ 1641  nano check-fletcher.c 
+ 1642  ls
+ 1643  cd part12-containers-applications/
+ 1644  ls
+ 1645  cd todo-app/
+ 1646  ls
+ 1647  cd todo-backend/
+ 1648  ls
+ 1649  docker run -p 6379:6379 -it redis
+ 1650  docker run -p 6379:6379 -it redis -d
+ 1651  docker run -p 6379:6379 -d -it redis 
+ 1652  redis-cli
+ 1653  docker kill 4f
+ 1654  docker kill 4fc
+ 1655  docker run -it --rm redis redis-cli 
+ 1656  history
+ 1657  docker compose -f docker-compose.dev.yml up -d
+ 1658  code . 
+ 1659  docker exec -it redis redis-cli
+ 1660  history
+ 1661  docker exec -it 7293 bash
+ 1662  ls
+ 1663  docker exec -it redis redis-cli
+ 1664  docker exec -it 7293 bash
+ 1665  ls
+ 1666  cd part12-containers-applications/
+ 1667  ls
+ 1668  cd test/
+ 1669  ls
+ 1670  docker run --name rdb -p 6379:6379 redis
+ 1671  cd ..
+ 1672  ls
+ 1673  cd todo-app/
+ 1674  cd todo-backend/
+ 1675  ls
+ 1676  history
+ 1677  docker compose -f docker-compose.dev.yml up -d
+ 1678  docker kill todo-backend
+ 1679  docker kill redis-1
+ 1680  docker kill 729e
+ 1681  docker kill 729
+ 1682  docker kill 4e6
+ 1683  ls
+ 1684  docker compose -f docker-compose.dev.yml up
+ 1685  cd part12-containers-applications/
+ 1686  ls
+ 1687  cd todo-app/
+ 1688  ls
+ 1689  cd todo-backend/
+ 1690  ls
+ 1691  history
+ 1692  REDIS_URL=redis://3456:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1693  docker exec -it rdb redis-cli
+ 1694  ls
+ 1695  docker exec -it 4e6 redis-cli
+ 1696  docker exec -it 4e6 bash
+ 1697  ls
+ 1698  docker exec -it 4e6 redis-cli
+ 1699  docker exec -it 729 redis-cli
+ 1700  ls
+ 1701  cd projects
+ 1702  ls
+ 1703  cd ..
+ 1704  nano last-modified.txt 
+ 1705  rm last-modified.txt 
+ 1706  ls
+ 1707  cd snap
+ 1708  ls
+ 1709  cd ..
+ 1710  ls
+ 1711  cd projects
+ 1712  ls
+ 1713  cd file-integrity/
+ 1714  ls
+ 1715  code . 
+ 1716  man valgrind
+ 1717  gcc -pg -o check-xor check-xor.c
+ 1718  ./check-xor 
+ 1719  ./gmon.out
+ 1720  gcc -pg -o check-xor check-xor.c
+ 1721  ./check-xor 
+ 1722  ./check-xor test-files.txt 
+ 1723  gprof check-xor gmon.out > analysis.txt
+ 1724  gcc -pg -o check-xor check-xor.c
+ 1725  ./check-xor 
+ 1726  ./check-xor test-files.txt 
+ 1727  gprof check-xor gmon.out > analysis.txt
+ 1728  gcc check-fletcher.c -o check-fletcher.c 
+ 1729  gcc check-fletcher.c -o check-fletcher
+ 1730  ./check-fletcher test-files.txt 
+ 1731  ./check-xor test-files.txt 
+ 1732  gcc check-fletcher.c -o check-fletcher
+ 1733  ./check-xor test-files.txt 
+ 1734  ./check-fletcher test-files.txt 
+ 1735  gcc check-fletcher.c -o check-fletcher
+ 1736  ./check-fletcher test-files.txt 
+ 1737  ./check-xor test-files.txt 
+ 1738  gcc check-fletcher.c -o check-fletcher
+ 1739  ./check-fletcher test-files.txt 
+ 1740  gcc check-fletcher.c -o check-fletcher
+ 1741  ./check-fletcher test-files.txt 
+ 1742  gcc test.c -o test 
+ 1743  cd ..
+ 1744  ls
+ 1745  cd threads-sema/
+ 1746  ls
+ 1747  cp common.h ../file-integrity/
+ 1748  ls
+ 1749  cd ..
+ 1750  ls
+ 1751  cd file-integrity/
+ 1752  ls
+ 1753  gcc test.c -o test 
+ 1754  ./test test-files.txt 
+ 1755  gcc test.c -o test 
+ 1756  ./test test-files.txt 
+ 1757  gcc -pg -o check-fletcher check-fletcher.c
+ 1758  ./check-fletcher test-files.txt 
+ 1759  gprof check-fletcher gmon.out > analysis2.txt
+ 1760  gcc check-crc.c -o check-crc.c 
+ 1761  gcc check-crc.c -o check-crc
+ 1762  ./check-crc test-files.txt 
+ 1763  gcc check-crc.c -o check-crc
+ 1764  ./check-crc test-files.txt 
+ 1765  gcc check-crc.c -o check-crc
+ 1766  ./check-crc test-files.txt 
+ 1767  gcc check-crc.c -o check-crc
+ 1768  ./check-crc test-files.txt 
+ 1769  man long
+ 1770  ./check-crc test-files.txt 
+ 1771  gcc check-crc.c -o check-crc
+ 1772  ./check-crc test-files.txt 
+ 1773  gcc check-crc.c -o check-crc
+ 1774  ./check-crc test-files.txt 
+ 1775  cd projects
+ 1776  ls
+ 1777  cd cpu-sched-multi/
+ 1778  ./multi.py
+ 1779  ls
+ 1780  cd projects/cpu-sched-multi/
+ 1781  ls
+ 1782  code . 
+ 1783  touch solutions.md
+ 1784  ls
+ 1785  ./multy.py
+ 1786  python3 multi.py
+ 1787  python3 multi.py -n 4
+ 1788  python3 multi.py -n 4 -M 100
+ 1789  python3 multi.py -n 4 -M 100 -L 1:100:50,2:100:150
+ 1790  python3 multi.py -n 4 -M 100 -L k:100:50,2:100:150
+ 1791  python3 multi.py -n 1 -L a:30:200
+ 1792  python3 multi.py -n 1 -L a:30:200 -c
+ 1793  python3 multi.py -n 1 -L a:30:200 -t
+ 1794  python3 multi.py -n 1 -L a:30:200 -t -c
+ 1795  python3 multi.py -n 1 -L a:30:200 -M 300
+ 1796  python3 multi.py -n 1 -L a:30:200 -M 300 -t
+ 1797  python3 multi.py -n 1 -L a:30:200 -M 300 -t -c
+ 1798  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 
+ 1799  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 2
+ 1800  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 3
+ 1801  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 3 -c
+ 1802  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 1 -c
+ 1803  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 2 -c
+ 1804  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 3 -c
+ 1805  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 4 -c
+ 1806  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 5 -c
+ 1807  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 6 -c
+ 1808  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 7 -c
+ 1809  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 1 -T -c
+ 1810  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 2 -T -c
+ 1811  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 3 -T -c
+ 1812  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 4 -T -c
+ 1813  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 5 -T -c
+ 1814  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 5 -T -c -C
+ 1815  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 1 -T -c -C
+ 1816  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 2 -T -c -C
+ 1817  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 3 -T -c -C
+ 1818  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 4 -T -c -C
+ 1819  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 5 -T -c -C
+ 1820  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 5 -w 10 -T -c -C
+ 1821  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 5 -w 5 -T -c -C
+ 1822  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 5 -w 10 -T -c -C
+ 1823  python3 multi.py -n 1 -L a:30:200 -M 300 -t -r 5 -w 1 -T -c -C
+ 1824  python3 multi.py -n 2 -l a:100:100,b:100:50,c:100:50
+ 1825  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50
+ 1826  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -c
+ 1827  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -c -T
+ 1828  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -c -t
+ 1829  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -c -t -C
+ 1830  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -A a:0,b:1,c:1 
+ 1831  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -A a:0,b:1,c:1 -t
+ 1832  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -A a:0,b:1,c:1 -t -T
+ 1833  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -A a:0,b:1,c:1 -t -T -C
+ 1834  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -A a:0,b:1,c:1 -t -T -C -c
+ 1835  python3 multi.py -n 1 -L a:100:100,b:100:100,c:100:100 -A a:0,b:1,c:1 -M 50 -t -T -C -c
+ 1836  python3 multi.py -n 1 -L a:100:100,b:100:100,c:100:100 -M 50 -t -T -C -c
+ 1837  python3 multi.py -n 2 -L a:100:100,b:100:100,c:100:100 -M 50 -t -T -C -c
+ 1838  python3 multi.py -n 3 -L a:100:100,b:100:100,c:100:100 -M 50 -t -T -C -c
+ 1839  python3 multi.py -n 3 -L a:100:100,b:100:100,c:100:100 -t -T -C -c
+ 1840  python3 multi.py -n 2 -L a:100:100,b:100:100,c:100:100 -t -T -C -c
+ 1841  python3 multi.py -n 1 -L a:100:100,b:100:100,c:100:100 -t -T -C -c -
+ 1842  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -t -p -T -C -c
+ 1843  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -t -T -C -c
+ 1844  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -t -T -C -c -p 
+ 1845  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -t -T -C -c -p 50
+ 1846  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -t -T -C -c -p 50- P 2
+ 1847  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -t -T -C -c -p 50- P 3
+ 1848  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -t -T -C -c -p 50- P 4
+ 1849  python3 multi.py -n 2 -L a:100:100,b:100:50,c:100:50 -t -T -C -c -p 50- P 5
+ 1850  ls
+ 1851  cd part12-containers-applications/
+ 1852  ls
+ 1853  cd todo-app/
+ 1854  ls
+ 1855  cd todo-backend/
+ 1856  ls
+ 1857  history
+ 1858  docker exec -it bc6 redis-cli
+ 1859  docker exec -it 4068 redis-cli
+ 1860  cd part12-containers-applications/
+ 1861  ls
+ 1862  git log
+ 1863  git status
+ 1864  ls
+ 1865  cd todo-app/
+ 1866  ls
+ 1867  cd todo-backend/
+ 1868  ls
+ 1869  code . 
+ 1870  history
+ 1871  REDIS_URL=redis://3456:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1872  REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1873  history
+ 1874  docker compose -f docker-compose.dev.yml up
+ 1875  ls
+ 1876  cd part12-containers-applications/
+ 1877  ls
+ 1878  cd todo-app/
+ 1879  ps
+ 1880  ps man
+ 1881  man ps
+ 1882  \docker compose -f docker-compose.dev.yml up
+ 1883  cd todo-backend/
+ 1884  docker compose -f docker-compose.dev.yml up
+ 1885  docker compose -f docker-compose.yml up
+ 1886  docker compose -f docker-compose.dev.yml up
+ 1887  docker compose -f docker-compose.dev.yml down
+ 1888  docker compose -f docker-compose.dev.yml up
+ 1889  ls
+ 1890  mkdir tests
+ 1891  ls
+ 1892  cd tests 
+ 1893  git clone https://github.com/simongreenwood/part12-containers-applications.git
+ 1894  ls
+ 1895  git branch
+ 1896  git log
+ 1897  ls
+ 1898  cd part12-containers-applications/
+ 1899  ls
+ 1900  git log
+ 1901  git checkout c38dd2e3e218f6c698e60835c1bf970094cf6632
+ 1902  code . 
+ 1903  ls
+ 1904  mkdir part13
+ 1905  ls
+ 1906  cd part13
+ 1907  ls
+ 1908  docker run -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 postgres
+ 1909  cd tests/part12-containers-applications/todo-app/todo-backend/
+ 1910  ls
+ 1911  history
+ 1912  REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+ 1913  REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+ 1914  npm install
+ 1915  REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+ 1916  cd projects/
+ 1917  ls
+ 1918  cd ..
+ 1919  ls
+ 1920  cd part12-containers-applications/
+ 1921  ls
+ 1922  cd todo-app/
+ 1923  ls
+ 1924  cd todo-backend/
+ 1925  ls
+ 1926  code . 
+ 1927  cd ~
+ 1928  ls
+ 1929  cd tests
+ 1930  code . 
+ 1931  ls
+ 1932  cd part12-containers-applications/
+ 1933  ls
+ 1934  cd todo-app/
+ 1935  ls
+ 1936  cd todo-backend/
+ 1937  ls
+ 1938  histoy
+ 1939  ls
+ 1940  history
+ 1941  docker compose -f docker-compose.dev.yml down
+ 1942  docker compose -f docker-compose.dev.yml up
+ 1943  docker exec -it 57cf redis-cli
+ 1944  ls
+ 1945  cd tests
+ 1946  ls
+ 1947  rm part12-containers-applications/
+ 1948  rm --help
+ 1949  ls
+ 1950  rm -r part12-containers-applications/
+ 1951  ls
+ 1952  rm -rf part12-containers-applications/
+ 1953  ls
+ 1954  git clone https://github.com/jmkahko/fullstackContainers.git
+ 1955  ls
+ 1956  cd fullstackContainers/
+ 1957  ls
+ 1958  git lo
+ 1959  git log
+ 1960  git checkout fa6d63f652c5b5e56ef7dde129e786495f3e3e4f
+ 1961  ls
+ 1962  git log
+ 1963  ls
+ 1964  code . 
+ 1965  history
+ 1966  docker compose -f docker-compose.dev.yml up
+ 1967  ls
+ 1968  cd todo-app/
+ 1969  ls
+ 1970  cd todo-backend/
+ 1971  ls
+ 1972  docker compose -f docker-compose.dev.yml up
+ 1973  ls
+ 1974  cd tests
+ 1975  ls
+ 1976  cd fullstackContainers/
+ 1977  ls
+ 1978  cd todo-app/
+ 1979  ls
+ 1980  cd todo-
+ 1981  ls
+ 1982  cd todo-backend/
+ 1983  ls
+ 1984  docker exec -it 6b5 redis-cli
+ 1985  history
+ 1986  docker compose -f docker-compose.dev.yml up
+ 1987  ls
+ 1988  cd tests
+ 1989  ls
+ 1990  cd fullstackContainers/
+ 1991  ls
+ 1992  cd todo-app/
+ 1993  cd todo-backend/
+ 1994  ls
+ 1995  docker compose -f docker-compose.dev.yml up
+ 1996  docker ps
+ 1997  docker exec -it 396 sh
+ 1998  ls
+ 1999  cd part12-containers-applications/
+ 2000  ls
+ 2001  cd ..
+ 2002  ls
+ 2003  cd part1
+ 2004  cd part12
+ 2005  cd part12-containers-applications/
+ 2006  ls
+ 2007  cd todo-app/todo-backend/
+ 2008  ls
+ 2009  history
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [7mREDIS_URL=redis:[27m[7m/[27m[7m/6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm st[27m[7ma[27m[7mrt[27m[A[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+[0mGET /statistics [31m500 [0m2.004 ms - 25[0m
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ETIMEDOUT 0.0.24.235:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:518:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:169:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:128:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  errno: [33m-110[39m,
+  code: [32m'ETIMEDOUT'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'0.0.24.235'[39m,
+  port: [33m6379[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+[0mGET /statistics [31m500 [0m2.260 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.488 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.427 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.939 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.377 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.413 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.546 ms - 25[0m
+[0mGET / [36m304 [0m0.504 ms - -[0m
+[0mGET /todos/ [36m304 [0m21.208 ms - -[0m
+[0mGET /statistics [31m500 [0m0.347 ms - 25[0m
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ETIMEDOUT 0.0.24.235:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:518:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:169:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:128:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  errno: [33m-110[39m,
+  code: [32m'ETIMEDOUT'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'0.0.24.235'[39m,
+  port: [33m6379[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+added todos:  [33mNaN[39m
+[0mGET /statistics [31m500 [0m12.039 ms - 25[0m
+added todos:  [33mNaN[39m
+[0mGET /statistics [31m500 [0m1.074 ms - 25[0m
+added todos:  [33mNaN[39m
+[0mGET /statistics [31m500 [0m0.568 ms - 25[0m
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ETIMEDOUT 0.0.24.235:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:518:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:169:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:128:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  errno: [33m-110[39m,
+  code: [32m'ETIMEDOUT'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'0.0.24.235'[39m,
+  port: [33m6379[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [K]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/node_modules/express/lib/router/index.js:458
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/router/index.js:458:13[90m)[39m
+    at Function.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/application.js:220:21[90m)[39m
+    at Array.forEach (<anonymous>)
+    at Function.use [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/application.js:217:7[90m)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mapp.js:15:5[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[90m    at require (node:internal/modules/helpers:179:18)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mbin/www:6:11[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/node_modules/express/lib/router/index.js:458
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/router/index.js:458:13[90m)[39m
+    at Function.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/application.js:220:21[90m)[39m
+    at Array.forEach (<anonymous>)
+    at Function.use [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/application.js:217:7[90m)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mapp.js:15:5[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[90m    at require (node:internal/modules/helpers:179:18)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mbin/www:6:11[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/node_modules/express/lib/router/index.js:458
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/router/index.js:458:13[90m)[39m
+    at Function.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/application.js:220:21[90m)[39m
+    at Array.forEach (<anonymous>)
+    at Function.use [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/application.js:217:7[90m)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mapp.js:15:5[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[90m    at require (node:internal/modules/helpers:179:18)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mbin/www:6:11[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/node_modules/express/lib/router/index.js:458
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/router/index.js:458:13[90m)[39m
+    at Function.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/application.js:220:21[90m)[39m
+    at Array.forEach (<anonymous>)
+    at Function.use [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mexpress[24m/lib/application.js:217:7[90m)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mapp.js:15:5[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[90m    at require (node:internal/modules/helpers:179:18)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mbin/www:6:11[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ git log
+[?2004l[?1h=[33mcommit 7f3dce638a5f998ba127e123be251e74b05987a5[m[33m ([m[1;36mHEAD -> [m[1;32mexercise10-incomplete[m[33m)[m[m
+Author: Duy Huynh <minhduyhuynh16@gmail.com>[m
+Date:   Tue Apr 30 13:58:53 2024 +0700[m
+[m
+    for ex 12.10 from now only, it's not completed yet[m
+[m
+[33mcommit 3746c35867b98f66109b6ce7a959b388282f20d9[m[33m ([m[1;32mmain[m[33m)[m[m
+Author: Duy Huynh <minhduyhuynh16@gmail.com>[m
+Date:   Thu Apr 25 16:08:04 2024 +0700[m
+[m
+    done ex 12.9[m
+[m
+[33mcommit 53a085742419ab6bb95e9bb119d0ddd2ccfba7fe[m[m
+Author: Duy Huynh <minhduyhuynh16@gmail.com>[m
+Date:   Wed Apr 24 16:26:07 2024 +0700[m
+[m
+    done ex 12.8[m
+[m
+[33mcommit af5bfa433f7c54ada48c3fd34cc4eeb09719796f[m[m
+Author: Duy Huynh <minhduyhuynh16@gmail.com>[m
+Date:   Wed Apr 24 13:58:18 2024 +0700[m
+[m
+    done ex 12.6 and 12.7[m
+:[K[K[?1l>[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ git status
+[?2004lOn branch exercise10-incomplete
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   app.js[m
+	[31mmodified:   routes/index.js[m
+	[31mmodified:   routes/todos.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../script-answers/exercise12_11.txt[m
+	[31m../../test/docker-compose.yml[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ git rs[Kestore .
+[?2004l[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ git status
+[?2004lOn branch exercise10-incomplete
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../script-answers/exercise12_11.txt[m
+	[31m../../test/docker-compose.yml[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ ls
+[?2004lDockerfile  app.js  docker-compose.dev.yml  [0m[01;34mmongo[0m         package-lock.json  [01;34mredis[0m   [01;34mutil[0m
+README.md   [01;34mbin[0m     docker-compose.yml      [01;34mnode_modules[0m  package.json       [01;34mroutes[0m
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ gi[K[Klsgit statusrestore .[3Pstatus[3PlogREDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [9Phistory
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CREDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+[0mGET /statistics [31m500 [0m2.104 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.441 ms - 25[0m
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ETIMEDOUT 0.0.24.235:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:518:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:169:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:128:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  errno: [33m-110[39m,
+  code: [32m'ETIMEDOUT'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'0.0.24.235'[39m,
+  port: [33m6379[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ETIMEDOUT 0.0.24.235:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:518:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:169:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:128:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  errno: [33m-110[39m,
+  code: [32m'ETIMEDOUT'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'0.0.24.235'[39m,
+  port: [33m6379[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [K]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [K]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm star[1Pt[A[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[K[A[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start [K[A[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[1P
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+[0mGET / [32m200 [0m1.707 ms - 117[0m
+[0mGET /todos/ [36m304 [0m20.595 ms - -[0m
+[0mGET /statistics [31m500 [0m0.768 ms - 25[0m
+^C
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C M[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C MO[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cs M[1@O[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: [1@M[1@l[1@o[1@c[1@a[1@l[1@h[1@os MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start [A[C[C[C[C[C[C[Ct MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C: MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C6 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C3 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C7 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C9 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C
+
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/node_modules/redis/lib/createClient.js:69
+            throw new RangeError('The redis url must begin with slashes "//" or contain slashes after the redis protocol');
+            ^
+
+RangeError: The redis url must begin with slashes "//" or contain slashes after the redis protocol
+    at createClient [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/createClient.js:69:19[90m)[39m
+    at exports.createClient [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:1023:41[90m)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mredis/index.js:16:24[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[90m    at require (node:internal/modules/helpers:179:18)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mroutes/index.js:1:22[90m)[39m
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis:localhost:6379  MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CMONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm [1Pstart[A[C[C[C[C[C[C[C[C
+
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/node_modules/redis/lib/createClient.js:69
+            throw new RangeError('The redis url must begin with slashes "//" or contain slashes after the redis protocol');
+            ^
+
+RangeError: The redis url must begin with slashes "//" or contain slashes after the redis protocol
+    at createClient [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/createClient.js:69:19[90m)[39m
+    at exports.createClient [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:1023:41[90m)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mredis/index.js:16:24[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1022:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[90m    at require (node:internal/modules/helpers:179:18)[39m
+    at Object.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mroutes/index.js:1:22[90m)[39m
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis:localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocalhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm s[1Ptart[A[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A/localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C/localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C
+
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+[0mGET / [32m200 [0m1.578 ms - 127[0m
+[0mGET /todos/ [36m304 [0m19.575 ms - -[0m
+[0mGET /statistics [31m500 [0m0.778 ms - 25[0m
+^C
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CD MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database n[1@p[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database [1@n[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CD MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database n[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database np[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm[1P start[A[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm [1Pstart[A[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm s[1Ptart[A[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm st[1Part[A[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm sta[1Prt[A[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm star[1Pt[A[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start[K[A[C[C[C[C[C[C[C[C MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm start [K[A[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C M[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C MO[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C MON[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C MONG[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C MONGO[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C MONGO_[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C MONGO_U[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C MONGO_UR[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C MONGO_URL[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C MONGO_URL=[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C MONGO_URL=m[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C MONGO_URL=mo[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C MONGO_URL=mon[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C MONGO_URL=mong[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C MONGO_URL=mongo[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C MONGO_URL=mongod[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [CMONGO_URL=mongodb[1P[A]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1P[1P[1@ [1@R[1@E[1@D[1@I[1@S[1@_[1@U[1@R[1@L[1@=[1@l[1@o[1P[1P[1@r[1@e[1@d[1@i[1@s[1@:[1@/[1@/[1@l[1@o[1@c[1@a[1@l[1@honpm start [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csnpm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctnpm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C npm start[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+[0mGET / [36m304 [0m1.458 ms - -[0m
+[0mGET / [32m200 [0m0.537 ms - 127[0m
+[0mGET / [32m200 [0m0.375 ms - 127[0m
+[0mGET / [32m200 [0m0.271 ms - 127[0m
+[0mGET / [32m200 [0m0.296 ms - 127[0m
+[0mGET / [32m200 [0m0.252 ms - 127[0m
+[0mGET / [32m200 [0m0.262 ms - 127[0m
+[0mGET / [32m200 [0m0.267 ms - 127[0m
+[0mGET / [32m200 [0m0.232 ms - 127[0m
+[0mGET / [32m200 [0m0.370 ms - 128[0m
+[0mGET / [32m200 [0m0.384 ms - 128[0m
+[0mGET / [32m200 [0m0.357 ms - 128[0m
+[0mGET / [32m200 [0m0.358 ms - 128[0m
+[0mGET / [32m200 [0m0.470 ms - 128[0m
+[0mGET / [32m200 [0m0.269 ms - 128[0m
+[0mGET / [32m200 [0m0.235 ms - 128[0m
+[0mGET / [32m200 [0m0.565 ms - 128[0m
+[0mGET /statistics [31m500 [0m0.858 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.514 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.336 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.356 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.412 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.380 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.497 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.332 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.455 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.415 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.359 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.427 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.363 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.471 ms - 25[0m
+[0mGET / [32m200 [0m0.348 ms - 128[0m
+[0mGET /statistics [31m500 [0m0.355 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.385 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.315 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.375 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.316 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.459 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.333 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.353 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.537 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.357 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.324 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.390 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.285 ms - 25[0m
+[0mGET /statistics [31m500 [0m0.367 ms - 25[0m
+
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+AbortError: Ready check failed: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:298:23[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:231:14[90m)[39m
+[90m    at Object.onceWrapper (node:events:632:28)[39m
+[90m    at Socket.emit (node:events:530:35)[39m
+[90m    at endReadableNT (node:internal/streams/readable:1696:12)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_info_cmd [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:432:14[90m)[39m
+    at [90m/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:471:14
+    at Object.callbackOrEmit [as callback_or_emit] [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/utils.js:89:9[90m)[39m
+    at Command.callback [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/individualCommands.js:157:15[90m)[39m
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:310:29[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    [... lines matching original stack trace ...]
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  code: [32m'UNCERTAIN_STATE'[39m,
+  command: [32m'INFO'[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database REDIS_URL=redis://localhost:6379 npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+hello?
+added todos:  9001
+[0mGET /statistics [32m200 [0m4.681 ms - 20[0m
+hello?
+added todos:  9001
+[0mGET /statistics [36m304 [0m2.027 ms - -[0m
+hello?
+added todos:  9001
+[0mGET /statistics [36m304 [0m1.657 ms - -[0m
+hello?
+added todos:  [1mnull[22m
+[0mGET /statistics [32m200 [0m2.337 ms - 20[0m
+[0mGET / [32m200 [0m0.387 ms - 127[0m
+[0mPOST /todos/ [32m200 [0m22.035 ms - 86[0m
+hello?
+added todos:  [1mnull[22m
+[0mGET /statistics [36m304 [0m1.595 ms - -[0m
+[0mPOST /todos/ [32m200 [0m4.723 ms - 86[0m
+hello?
+added todos:  [1mnull[22m
+[0mGET /statistics [36m304 [0m1.449 ms - -[0m
+^C
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [H[2J]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database REDIS_URL=redis://localhost:6379 npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+^L  [0mGET /statistics [36m304 [0m2.726 ms - -[0m
+[0mGET /statistics [36m304 [0m1.343 ms - -[0m
+[0mGET /statistics [36m304 [0m1.113 ms - -[0m
+[0mGET /statistics [36m304 [0m1.154 ms - -[0m
+[0mGET /statistics [36m304 [0m1.191 ms - -[0m
+[0mPOST /todos/ [32m200 [0m15.473 ms - 86[0m
+[0mGET /statistics [36m304 [0m1.217 ms - -[0m
+[0mPOST /todos/ [32m200 [0m3.523 ms - 86[0m
+[0mPOST /todos/ [32m200 [0m4.453 ms - 86[0m
+[0mPOST /todos/ [32m200 [0m3.065 ms - 86[0m
+[0mPOST /todos/ [32m200 [0m3.040 ms - 86[0m
+[0mPOST /todos/ [32m200 [0m3.999 ms - 86[0m
+[0mGET /todos/ [32m200 [0m16.099 ms - 9996[0m
+[0mPOST /todos/ [32m200 [0m3.164 ms - 86[0m
+[0mPOST /todos/ [32m200 [0m4.024 ms - 86[0m
+[0mGET /statistics [36m304 [0m1.176 ms - -[0m
+[0mPOST /todos/ [32m200 [0m3.125 ms - 86[0m
+[0mGET /statistics [36m304 [0m1.129 ms - -[0m
+[0mGET /todos/ [32m200 [0m10.220 ms - 10257[0m
+
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+AbortError: Ready check failed: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:298:23[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:231:14[90m)[39m
+[90m    at Object.onceWrapper (node:events:632:28)[39m
+[90m    at Socket.emit (node:events:530:35)[39m
+[90m    at endReadableNT (node:internal/streams/readable:1696:12)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_info_cmd [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:432:14[90m)[39m
+    at [90m/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:471:14
+    at Object.callbackOrEmit [as callback_or_emit] [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/utils.js:89:9[90m)[39m
+    at Command.callback [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/individualCommands.js:157:15[90m)[39m
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:310:29[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    [... lines matching original stack trace ...]
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  code: [32m'UNCERTAIN_STATE'[39m,
+  command: [32m'INFO'[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database REDIS_URL=redis://localhost:6379 npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+hihi
+[0mPOST /todos/ [32m200 [0m18.378 ms - 86[0m
+added todooooo:  [1mnull[22m
+hehehe
+hihi
+[0mPOST /todos/ [32m200 [0m3.857 ms - 86[0m
+added todooooo:  [1mnull[22m
+hehehe
+[0mGET /statistics [36m304 [0m1.983 ms - -[0m
+^L  hihi
+[0mPOST /todos/ [32m200 [0m4.275 ms - 86[0m
+added todooooo:  [1mnull[22m
+hehehe
+
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+AbortError: Ready check failed: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:298:23[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:231:14[90m)[39m
+[90m    at Object.onceWrapper (node:events:632:28)[39m
+[90m    at Socket.emit (node:events:530:35)[39m
+[90m    at endReadableNT (node:internal/streams/readable:1696:12)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_info_cmd [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:432:14[90m)[39m
+    at [90m/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:471:14
+    at Object.callbackOrEmit [as callback_or_emit] [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/utils.js:89:9[90m)[39m
+    at Command.callback [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/individualCommands.js:157:15[90m)[39m
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:310:29[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    [... lines matching original stack trace ...]
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  code: [32m'UNCERTAIN_STATE'[39m,
+  command: [32m'INFO'[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database REDIS_URL=redis://localhost:6379 npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+hihi
+added todooooo:  Promise { [36m<pending>[39m }
+[0mPOST /todos/ [32m200 [0m18.331 ms - 86[0m
+hihi
+added todooooo:  Promise { [36m<pending>[39m }
+[0mPOST /todos/ [32m200 [0m6.052 ms - 86[0m
+hihi
+added todooooo:  Promise { [36m<pending>[39m }
+[0mPOST /todos/ [32m200 [0m3.890 ms - 86[0m
+
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+AbortError: Ready check failed: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:298:23[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:231:14[90m)[39m
+[90m    at Object.onceWrapper (node:events:632:28)[39m
+[90m    at Socket.emit (node:events:530:35)[39m
+[90m    at endReadableNT (node:internal/streams/readable:1696:12)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_info_cmd [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:432:14[90m)[39m
+    at [90m/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:471:14
+    at Object.callbackOrEmit [as callback_or_emit] [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/utils.js:89:9[90m)[39m
+    at Command.callback [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/individualCommands.js:157:15[90m)[39m
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:310:29[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    [... lines matching original stack trace ...]
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  code: [32m'UNCERTAIN_STATE'[39m,
+  command: [32m'INFO'[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database REDIS_URL=redis://localhost:6379 npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+hihi
+[0mPOST /todos/ [32m200 [0m16.889 ms - 86[0m
+added todooooo:  [1mnull[22m
+hehehe
+
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+AbortError: Ready check failed: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:298:23[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:231:14[90m)[39m
+[90m    at Object.onceWrapper (node:events:632:28)[39m
+[90m    at Socket.emit (node:events:530:35)[39m
+[90m    at endReadableNT (node:internal/streams/readable:1696:12)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_info_cmd [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:432:14[90m)[39m
+    at [90m/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:471:14
+    at Object.callbackOrEmit [as callback_or_emit] [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/utils.js:89:9[90m)[39m
+    at Command.callback [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/individualCommands.js:157:15[90m)[39m
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:310:29[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    [... lines matching original stack trace ...]
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  code: [32m'UNCERTAIN_STATE'[39m,
+  command: [32m'INFO'[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database REDIS_URL=redis://localhost:6379 npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+hihi
+[0mPOST /todos/ [32m200 [0m17.879 ms - 86[0m
+added todooooo:  [1mnull[22m
+hihi
+[0mPOST /todos/ [32m200 [0m4.662 ms - 86[0m
+added todooooo:  0
+hihi
+[0mPOST /todos/ [32m200 [0m4.444 ms - 86[0m
+added todooooo:  0
+[0mGET /statistics [32m200 [0m1.795 ms - 17[0m
+[0mGET /statistics [36m304 [0m1.291 ms - -[0m
+[0mGET /statistics [36m304 [0m1.076 ms - -[0m
+
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+AbortError: Ready check failed: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:298:23[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:231:14[90m)[39m
+[90m    at Object.onceWrapper (node:events:632:28)[39m
+[90m    at Socket.emit (node:events:530:35)[39m
+[90m    at endReadableNT (node:internal/streams/readable:1696:12)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_info_cmd [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:432:14[90m)[39m
+    at [90m/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:471:14
+    at Object.callbackOrEmit [as callback_or_emit] [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/utils.js:89:9[90m)[39m
+    at Command.callback [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/lib/individualCommands.js:157:15[90m)[39m
+    at RedisClient.flush_and_error [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:310:29[90m)[39m
+    at RedisClient.connection_gone [90m(/home/duyhuynh/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:603:14[90m)[39m
+    [... lines matching original stack trace ...]
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  code: [32m'UNCERTAIN_STATE'[39m,
+  command: [32m'INFO'[39m
+}
+
+Node.js v20.12.2
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database REDIS_URL=redis://localhost:6379 npm start
+[?2004l
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+[0mGET /statistics [36m304 [0m3.256 ms - -[0m
+hihi
+[0mPOST /todos/ [32m200 [0m16.852 ms - 86[0m
+added todooooo:  0
+[0mGET /statistics [32m200 [0m1.386 ms - 17[0m
+hihi
+[0mPOST /todos/ [32m200 [0m5.755 ms - 86[0m
+added todooooo:  1
+[0mGET /statistics [32m200 [0m1.150 ms - 17[0m
+hihi
+[0mPOST /todos/ [32m200 [0m3.238 ms - 86[0m
+added todooooo:  2
+[0mGET /statistics [32m200 [0m1.127 ms - 17[0m
+hihi
+[0mPOST /todos/ [32m200 [0m3.821 ms - 86[0m
+added todooooo:  3
+[0mGET /statistics [32m200 [0m1.080 ms - 17[0m
+^C
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [K]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ [K]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ git status
+[?2004lOn branch exercise10-incomplete
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   routes/index.js[m
+	[31mmodified:   routes/todos.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../script-answers/exercise12_11.txt[m
+	[31m../../test/docker-compose.yml[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;duyhuynh@RK-D8ZZNL3: ~/part12-containers-applications/todo-app/todo-backend[01;32mduyhuynh@RK-D8ZZNL3[00m:[01;34m~/part12-containers-applications/todo-app/todo-backend[00m$ ex[K[Kexit
+[?2004lexit
+
+Script done on 2024-04-30 15:39:44+07:00 [COMMAND_EXIT_CODE="0"]

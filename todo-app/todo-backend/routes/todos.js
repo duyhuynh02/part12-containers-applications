@@ -12,12 +12,14 @@ router.get('/', async (_, res) => {
 /* POST todo to listing. */
 router.post('/', async (req, res) => {
 
-  const todoCounter = () => {
-    let added_todos = parseInt(getAsync('added_todos')) || 0
-    if (added_todos !== 0 && added_todos !== null) {
-      console.log('hello?')
-      setAsync('added_todos', added_todos + 1)
-    } 
+  const todoCounter = async () => {
+    let added_todos = await getAsync('added_todos');
+    if (added_todos) { 
+      added_todos = parseInt(added_todos) + 1; 
+      setAsync('added_todos', added_todos);
+    } else {
+      setAsync('added_todos', 0);
+    }
   }
 
   const todo = await Todo.create({
