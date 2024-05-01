@@ -63,3 +63,5 @@ typings/
 # Mongo database location 
 mongo_data
 
+# Redis database location
+redis_data
