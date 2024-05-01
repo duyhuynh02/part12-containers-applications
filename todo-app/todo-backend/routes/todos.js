@@ -18,7 +18,7 @@ router.post('/', async (req, res) => {
       added_todos = parseInt(added_todos) + 1; 
       setAsync('added_todos', added_todos);
     } else {
-      setAsync('added_todos', 0);
+      setAsync('added_todos', 1); //default is 0
     }
   }
 

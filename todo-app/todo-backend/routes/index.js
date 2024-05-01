@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
 
 router.get('/statistics', async (req, res) => {
 
-  let added_todos = await getAsync("added_todos");
+  let added_todos = await getAsync("added_todos") || 0;
 
   // Check if added_todos is a valid object
   if (!isNaN(added_todos)) {
