@@ -2,3 +2,5 @@
 .gitignore
 node_modules
 Dockerfile
+redis_data
+commands.sh

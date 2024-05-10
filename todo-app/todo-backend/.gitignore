@@ -65,3 +65,6 @@ mongo_data
 
 # Redis database location
 redis_data
+
+#command line for personal purpose
+commands.sh

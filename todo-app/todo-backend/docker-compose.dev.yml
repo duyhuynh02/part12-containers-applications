@@ -1,6 +1,7 @@
 version: '3.8'
 
 services:
+
   mongo:
     image: mongo
     ports:
@@ -18,8 +19,28 @@ services:
     ports:
       - 6379:6379
     command: ['redis-server', '--appendonly', 'yes'] # Overwrite the CMD 
-    volumes: 
+    volumes:
       - ./redis_data:/data
+
+  server: 
+    image: hello-back-dev
+    build: .
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports: 
+      - 3000:3000 
+    environment: 
+      - REDIS_URL=redis://redis:6379 #make sure to change localhost to redis or mongo
+      - MONGO_URL=mongodb://the_username:the_password@mongo:3456/the_database 
+    depends_on:
+      - mongo
+      - redis
+  
+  # Debug purpose
+  debug-helper:
+    image: busybox
 
 volumes:
   mongo_data:
+  redis_data: 
