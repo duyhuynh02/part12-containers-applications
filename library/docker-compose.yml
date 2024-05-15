@@ -1,0 +1,31 @@
+services: 
+  app:
+    image: library-frontend 
+    build:
+      context: ./library-frontend 
+      dockerfile: Dockerfile 
+    volumes:
+      - ./library-frontend/:/usr/src/app 
+    environment:
+      - URI=http://localhost:8080/api
+    container_name: lib-frontend 
+
+  server:
+    image: library-backend 
+    build:  
+      context: ./library-backend 
+      dockerfile: Dockerfile 
+    volumes:
+      - ./library-backend/:/usrc/src/app
+    container_name: lib-backend  
+
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro 
+    ports:
+      - 8080:80
+    container_name: reverse-proxy-library
+    depends_on:
+      - app
+      - server 
